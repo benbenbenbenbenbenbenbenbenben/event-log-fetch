@@ -11,6 +11,8 @@ Option to use CLI and save JSON and CSV file.
 - [x] CLI to select organization, network, device type, start and end times and option to select a specific client
 - [x] Save to JSON and CSV files
 
+<img src="https://kersnovske.com/meraki/images/event-log.png">
+
 ## CLI Demo
 <br>
 <img src="https://kersnovske.com/meraki/images/event-log-cli.gif">
