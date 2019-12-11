@@ -1,4 +1,4 @@
 const config = {
-    api:'mykey'
+    api:''
   }
 module.exports = config;

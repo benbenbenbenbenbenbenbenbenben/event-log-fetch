@@ -1,4 +1,4 @@
 # .gitignore 
 node_modules 
 package-lock.json
-src/utils/config.js
+config.js
