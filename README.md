@@ -68,30 +68,35 @@ $ npm install bottleneck axios
 ```
 
 Required files:
-
+```js
 utils/events.js
 utils/dashboard.js
 utils/queue.js
+```
 
 See src/example.js for basic use case:
 
 From your script require the events.js file:
+```js
 const events = require('./utils/events')
+```
 
 If using async:
+```js
 async function call() {
     let result = await events.events(networkID, apiKey, params)
     //Do whatever with the result
     console.log(result)
 }
-
+```
 Must include parameters as below:
+```js
 let params = {
     productType: 'appliance',
     start: '2019-12-10T12:26:01.526Z',
     endingBefore: '2019-12-10T15:26:02.587Z'
   }
-
+```
 See full list of parameters available:
 https://developer.cisco.com/meraki/api/#/rest/api-endpoints/events/get-network-events
 
