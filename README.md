@@ -74,14 +74,14 @@ utils/dashboard.js
 utils/queue.js
 ```
 
-See src/example.js for basic use case:
+#### See src/example.js for basic use case:
 
 From your script require the events.js file:
 ```js
 const events = require('./utils/events')
 ```
 
-If using async:
+If using async for function call:
 ```js
 async function call() {
     let result = await events.events(networkID, apiKey, params)
