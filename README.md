@@ -23,7 +23,7 @@ Two Methods:
 - [x] CLI Application
 - [x] As a Module
 
-#### CLI Application
+### CLI Application
 
 Clone the source locally:
 
@@ -52,7 +52,7 @@ Run application:
 $ node src/app.js
 ```
 
-#### Module
+### Module
 
 Clone the source locally:
 
